@@ -12,8 +12,9 @@ export default class Achive extends React.Component {
      * @returns {XML}
      */
     render() {
+        const { params } = this.props;
         return (
-            <h1>Archive</h1>
+            <h1>Archive ({params.article})</h1>
         );
     }
 }
